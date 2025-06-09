@@ -1,7 +1,7 @@
 /**
  * @fileoverview This script contains the logic of the survey webpage and is executed by the 
  * client in the browser. 
- * @author Samuel König
+ * @author Samuel König <koenigsamuel99@gmx.de>
  * @version 1.0.0
  */
 
@@ -49,7 +49,7 @@
  */
 const totalPages = 9;    // To be specified: the actual number of pages in the survey!
 const chatbotPage = 4;   // To be specified: the page number where the chatbot appears!
-const emailCollection = false  //To be specified: Whether users can submit an email!
+const emailCollection = true  //To be specified: Whether users can submit an email!
 const textareaReplacement = true  //To be specified: Whether the textarea should be replaced!
 const likertQuestions = [
     "gender", 
